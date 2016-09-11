@@ -1,0 +1,8 @@
+Linearsvm -: 77.8
+random forest : 72.8
+multinomial: 76.5
+bernoulli: 76.4
+ridge : 77.5
+perceptron : 70.5
+passiveaggressive : 70.1
+
