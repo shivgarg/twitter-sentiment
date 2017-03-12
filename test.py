@@ -24,7 +24,7 @@ import nltk
 import cPickle
 
 
-with open('vector/vector.pkl','r') as v:
+with open('model/vector/vector.pkl','r') as v:
 	vectorizer = cPickle.load(v)
 f=open(str(sys.argv[1])+'_twt')
 g=open(str(sys.argv[2]),'w') ## Output File for labels
